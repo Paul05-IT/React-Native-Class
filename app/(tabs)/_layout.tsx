@@ -50,7 +50,7 @@ export default function RootLayout() {
                 options={{
                     tabBarIcon: ({ focused }) => (
                         <Image
-                            source={require("../images/accountlogo.svg")}
+                            source={require("../images/Account.png")}
                             style={{ width: 28, height: 28, opacity: focused ? 1 : 0.5 }}
                             resizeMode="contain"
                         />
@@ -62,7 +62,7 @@ export default function RootLayout() {
                 options={{
                     tabBarIcon: ({ focused }) => (
                         <Image
-                            source={require("../images/productlogo.svg")}
+                            source={require("../images/ProductScreen.png")}
                             style={{ width: 28, height: 28, opacity: focused ? 1 : 0.5 }}
                             resizeMode="contain"
                         />
